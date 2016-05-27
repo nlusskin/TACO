@@ -1,0 +1,91 @@
+﻿body {
+	background-image: url('http://tacoproject.org/site/grid17.png');
+	background-color: #007FFF;
+	background-size: 100% 100%;
+	background-repeat: repeat;
+	 }
+	 
+    /* tooltip styling. by default the element to be styled is .tooltip  */
+  
+    /* style the trigger elements */
+ .icon_table {
+ text-align: center;
+	margin-left: auto;
+	margin-top: 0%;
+	display: block;
+}
+ .title_image {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+ .learn_more_image {
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	display: block;
+}
+.link,
+.link a,
+.signupframe {
+	color: #b2daf7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	border: 1px solid #575757;
+	background: #575757;
+}
+.subscribe {
+	text-align: center;
+	margin-top: 5px;
+	display: block;
+	margin-left: auto;
+	color: white;
+	text-align: center;
+}
+.overlay {
+ 
+    /* must be initially hidden */
+    display:none;
+ 
+    /* place overlay on top of other elements */
+    z-index:10000;
+ 
+    /* styling */
+    background-color:#333;
+ 
+    width:675px;
+    min-height:800px;
+    border:1px solid #666;
+ 
+    /* CSS3 styling for latest browsers */
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+    overflow: auto;
+}
+overlay .close {
+    background-image:url(http://tacoproject.org/img/close.png);
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+.status_bar{
+	background-color: #ffff66;
+}
+.build {
+	background-color: red;
+	color: white;
+	font-style: italic;
+}
+.arrow {
+	display: none;
+}
+div#loading, .loading, div .loading{
+	top: 50%;
+	left: 50%;
+	height: 150px;
+	width: 150px;
+	display: none;
+}
